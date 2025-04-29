@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputContainer {
+  margin-top: 10px;
+}
+
+.inputContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputContainer input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.verificationResult {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.okMessage {
+  background-color: #4CAF50; /* لون أخضر للرسالة الناجحة */
+  color: #fff; /* لون النص في الرسالة الناجحة */
+}
+
+.falseMessage {
+  background-color: #FF5733; /* لون أحمر للرسالة الفاشلة */
+  color: #fff; /* لون النص في الرسالة الفاشلة */
+}
+
+.buttonStyle {
+  padding: 10px;
+  background-color: #4FA095;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* أو أي قيمة تناسب تصميمك */
+}
+
+
+.lab {
+  text-align: right;
+}
+ .inputStyle {
+  width: 50% ;
+  padding: 10px ;
+  margin: 5px 0 ;
+  border-radius: 5px ;
+  border: 1px solid #ccc ;
+}
